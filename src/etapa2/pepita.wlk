@@ -20,9 +20,19 @@ object pepita {
 		return cuanto
 	}
 	
-	method salirAComer() {
-		self.volar(5)		// "self" es una referencia al objeto que recibe el mensaje
-		// ... completar este metodo con las otra acciones sobre self
+	method salirAComer() {	
+		
+		//volar 5km
+		
+		self.volar(5)
+		
+		//comer 80 g de alpiste	
+		self.comer(alpiste,80)
+		
+		//volver 5km
+		self.volar(5)
+		
+		
 	}
 	
 	method haceLoQueQuieras() { 
@@ -35,3 +45,5 @@ object pepita {
 		}
 	}
 }
+
+
